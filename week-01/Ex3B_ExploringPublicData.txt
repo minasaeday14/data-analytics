@@ -1,0 +1,21 @@
+
+
+
+Search for USDA, and click into the result. Within the USDA datasets, search for food
+composition. Notice that the top three results are all datasets concerning nutrition
+information. Try searching the USDA page for nutrition. How does that affect your
+results?
+When I searched for USDA and clicked into the USDA result, I then searched for food composition within the USDA datasets. The top results were all datasets related to nutrition and food data. When I searched for nutrition instead, the results became broader and returned more datasets related to nutrition information, which made the search less specific than food composition. This showed that different search terms can affect how narrow or broad the dataset results are.
+
+
+ Try searching for butter, or any of your favorite foods. What kind of results do you
+get? What happens when you click on a result
+
+
+a) I searched for avocado and got food-related results from USDA FoodData Central. When I clicked on a result, it opened a detailed page with information such as nutrients, serving size, food category, and other nutrition details.
+
+Go back to the home page. Find Foundation Foods, and click on Downloads. What
+kind of data can you find on this page? How big are these files? Where can you find
+more information on the data types available?
+
+b) On the Foundation Foods Downloads page, I found downloadable data files in both JSON and CSV formats. The page also shows release dates and the zipped and unzipped file sizes. For example, the Foundation Foods files were listed around 467K zipped and 6.5M unzipped for JSON, and 3.4M zipped and 29M unzipped for CSV. I also saw other data types such as SR Legacy, FNDDS, Branded, and a full download of all data types. More information about the available data types can be found in the data type documentation link and the download field descriptions PDF shown on the page.
