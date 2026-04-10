@@ -1,0 +1,26 @@
+1. What conclusion can you reach about the responses to this question?
+Answer: A lot of customers would like rewards system.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+Answer:  Yes it was very helpful because it let me see the responses in one glimpse
+
+3. For questions with an “Other” option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+Answer:The actual text responses can usually be found in the individual response details or in the spreadsheet/Excel export of the survey results. One challenge is that people may type similar answers in different ways
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+Answer:it can be difficult to quickly find trends or patterns because the answers are open-ended and may all be phrased differently. Some responses may be short, vague, or include multiple ideas in one answer
+
+5. Now that you can see the responses, how might you recommend rephrasing this question or the response options in a future survey?
+Answer:Now that I can see the responses, I would recommend rephrasing the question or response options to make the answers more specific and easier to compare.
+
+6. Is there anything that surprised you about the survey responses?
+Answer: I was surprised that there was a visual option for a quick look and excel option for detail.
+
+7. Looking at the responses to questions 1 and 5, are there any ideas you might try to include in your morning routine, or any questions that you are also curious about?
+Answer:I am curious about which routines actually help people feel more focused and productive throughout the day.
+
+8. Pretend you are the instructor. Is there anything you can learn from this survey to help in how you approach teaching this class?
+Answer: If I were the instructor, I could use the survey responses to better understand students’ habits, interests, and possible challenges
+
+9. Again, pretend you are the instructor. Do you think it was helpful or not helpful to make this survey anonymous? Why or why not?
+Answer: think making the survey anonymous was helpful because students may have felt more comfortable answering honestly
