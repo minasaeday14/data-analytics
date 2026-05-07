@@ -11,3 +11,4 @@ print("Food cost is " + str(food_cost) + " and tax is " + str(tax))
 #print("Tip is " + str(tip))
 print("Total due is "+ str(total_due) )
 print("Tip is " + format(tip, ".2f"))
+
