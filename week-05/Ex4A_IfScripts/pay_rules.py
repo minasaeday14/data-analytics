@@ -9,6 +9,6 @@ if hours_worked > 40:
 else:
     gross_pay = pay_rate * hours_worked
 
-print(f"Pay rate: ${pay_rate:>2f}")
+print(f"Pay rate: ${pay_rate:.2f}")
 print(f"Hours worked: {hours_worked}")
 print(f"Gross pay: ${gross_pay:.2f}")
