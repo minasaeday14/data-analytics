@@ -39,6 +39,9 @@ print(f"Mode of 200 values: {choices_mode}")
 print(f"Standard deviation of 200 values: {choices_stdev}")
 print(f"Variance of 200 values: {choices_variance}")
 
-print()
+print("\n")
 
+print("_Modeling a random circle:")
+print(f"Radius = {radius}, area = {area_up} (rounded up to the nearest integer)")
+print(f"Radius = {radius}, area = {area_down} (rounded down to the nearest integer) ")
           
