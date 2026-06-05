@@ -1,0 +1,82 @@
+Exercise 2.A Exploring the Northwind Database
+Student: Mina Saeday
+
+Northwind overview
+- The northwind schema is installed and available in MySQL Workbench.
+- The database represents a fictional company called Northwind Traders.
+- The data is normalized into separate tables for customers, orders, products, employees, suppliers, categories, shippers, regions, territories, and order details.
+
+Table observations
+- Customers: one row represents one customer.
+- Orders: one row represents one order.
+- Order Details: one row represents one product line within an order.
+- Products: one row represents one product.
+- Employees: one row represents one employee.
+- Suppliers: one row represents one supplier.
+- Categories: one row represents one product category.
+- Shippers: one row represents one shipping company.
+- Region and Territories: one row represents one geographic area or sales territory.
+
+Row count notes
+- The record counts are consistent with the meaning of the tables.
+- Orders and Order Details have many more rows because they store transaction data.
+- Categories, Region, and Shippers have fewer rows because they store reference information.
+- CustomerCustomerDemo and CustomerDemographics both contain 0 records and are not useful for this analysis.
+
+Primary keys and parent tables
+- Orders
+  - Primary key: OrderID
+  - Parent tables: Customers, Employees, Shippers
+- Order Details
+  - Primary key: OrderID and ProductID
+  - Parent tables: Orders, Products
+
+Column review notes
+- OrderID
+  - Represents the unique ID for each order.
+  - Example values would be whole numbers such as 10248 or 11077.
+  - It is part of the primary key.
+  - It is not a foreign key.
+  - It would be valuable in a Power BI model because it identifies each order and connects related detail records.
+  - A good Power BI data type would be Whole Number.
+  - It could be used in calculations such as count of orders.
+
+- CustomerID
+  - Represents which customer placed the order.
+  - Example values would be text codes such as ALFKI or ANATR.
+  - It is not part of the primary key in Orders.
+  - It is a foreign key pointing to Customers.
+  - It would be valuable in a Power BI model because it links orders to customers.
+  - A good Power BI data type would be Text.
+  - It could be used in calculations such as distinct count of customers and orders by customer.
+
+- EmployeeID
+  - Represents which employee handled the order.
+  - Example values would be whole numbers.
+  - It is not part of the primary key in Orders.
+  - It is a foreign key pointing to Employees.
+  - It would be valuable in a Power BI model because it links orders to employee performance.
+  - A good Power BI data type would be Whole Number.
+  - It could be used in calculations such as orders per employee.
+
+- OrderDate
+  - Represents the date the order was placed.
+  - Example values would be dates and times.
+  - It is not part of the primary key.
+  - It is not shown as a foreign key.
+  - It would be valuable in a Power BI model for time trends and reporting.
+  - A good Power BI data type would be Date or Date/Time.
+  - It could be used in calculations such as orders by month or year.
+
+- ShipVia
+  - Represents which shipper was used for the order.
+  - Example values would be whole numbers tied to shipper IDs.
+  - It is not part of the primary key.
+  - It is a foreign key pointing to Shippers.
+  - It would be valuable in a Power BI model because it connects orders to shipping company analysis.
+  - A good Power BI data type would be Whole Number.
+  - It could be used in calculations such as orders by shipping company.
+
+EER diagram
+- The file northwind_eer.png shows the table structure and relationships for the Northwind database.
+- The diagram supports the table review by showing how Orders and Order Details connect to other tables such as Customers, Products, Employees, Shippers, Categories, Suppliers, Region, and Territories.

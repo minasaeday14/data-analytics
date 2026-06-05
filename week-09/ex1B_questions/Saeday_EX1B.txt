@@ -1,0 +1,47 @@
+Power BI Student Answers
+
+Question 5
+This report seems to be about team sales performance and customer profitability. It shows how team members are performing based on revenue, customers, products, gross margin, and regional results.
+
+Revenue Var % likely means the percentage difference between actual revenue and budgeted or expected revenue. RevenueTY likely means revenue this year.
+
+When you click Alaska on the map, the other visuals on the page filter or highlight the data for Alaska only. Clicking Alaska again restores the full view.
+
+When you click a team member's checkbox, the report filters to show only that person's data. This lets you compare how many customers and products each team member is responsible for.
+
+When you click a region such as NORTH in the treemap, the rest of the report filters or highlights data for that region. Clicking it again returns the report to the original full view.
+
+I prefer the treemap because it makes it easier to compare the size of each region and see which regions contribute the most revenue. It uses space better than a pie chart and is easier to read when there are several categories.
+
+Question 6
+The Data pane shows several tables, including Fact, BU, Customer, Date, Executive, Industry, Product, Scenario, and State.
+
+The icons next to the fields show different field types.
+
+The crossed-off eye icon means the field is hidden.
+
+Exploring the tables shows how Power BI organizes related data into a model.
+
+Question 7
+In Model view, Power BI shows the relationships between the tables in the dataset. The lines between the tables represent how the tables are connected. The symbols 1 and * show one-to-many relationships. In this model, the Fact table appears to be the central table because it links to many of the other tables. This view is useful because it helps show how the data is structured and how different tables work together in the report.
+
+Question 8
+In this model, the Fact table is at the center. The tables branching out from it mainly connect back to the Fact table. This creates a star-shaped layout, often called a star schema. The center table contains the main measurable business data, while the outer tables contain descriptive information like customer, product, date, region, and executive details.
+
+Question 9
+Each report page shows different business metrics, such as revenue, margin, customers, products, regions, industries, and executive performance. When you click on parts of a visual, the other visuals respond by filtering or highlighting related data.
+
+Teams Post Draft
+I reviewed the Artificial Intelligence Sample report and the Opportunity Analysis Sample report.
+
+Artificial Intelligence Sample:
+This report appears to show data related to artificial intelligence topics, trends, or usage patterns through interactive visuals.
+
+Question:
+What specific business or research goal is this report meant to support, and how would the insights be used in a real decision-making setting?
+
+Opportunity Analysis Sample:
+This report appears to focus on sales or business opportunities, showing how opportunity data can be analyzed to understand performance and potential outcomes.
+
+Question:
+What factors have the biggest impact on whether an opportunity is successful, and how could this report help identify those patterns?
